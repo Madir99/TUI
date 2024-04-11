@@ -1,4 +1,4 @@
 make: bin
-	g++ src/*.cpp -Wall -pedantic -shared -o bin/libTUI.so #Linux
+	g++ src/linux/*.cpp src/*.cpp -Wall -pedantic -shared -fPIC -o bin/libTUI.so #Linux
 bin:
 	mkdir bin
